@@ -5,7 +5,7 @@ const DUMMY_MEETUPS = [
     id: "m1",
     title: "The First MeetUp",
     image:
-      "https://pixabay.com/get/g0371f2eebadd6402c51bfab9bba4559ed79d488725ba499b1c06438c712a18f9c6801f14651cba1044bb79be6a01a77f51e1db58fdec0feeff8fbf3648ad108c0d96655fe7896f54e5421f54240f5f43_1920.jpg",
+      "https://pixabay.com/get/g48a8cd5ff2ebb737728764e47d7b8911d3efc48f599060dd9bcc1c3f4e3beb493afd67e7b1f7c5f15c56262c154e4a81f8024693a72590b67e33b3450104c73d1b38a6f6a6e70e2c4b4838f364aa084e_1920.jpg",
     address: "Some address 42, Street 119",
     description: "The First",
   },
@@ -13,7 +13,7 @@ const DUMMY_MEETUPS = [
     id: "m2",
     title: "The Second MeetUp",
     image:
-      "https://pixabay.com/get/g8b3acdec2533d8582f3d1a7d74deb41829aeb5856042055a12a7b79da3e1402580f553dec7d3ead0e7254c0762b7d55ecef28cca42ceb409e9511bd6c23a20802e9d99692d3506da727c018f212d0c01_1280.jpg",
+      "https://pixabay.com/get/g29fde778476fc13276e14851c1fb175ef933275cafef79ed2c83b3f97dca56080ac7a80db7fc59e3c5da7e80b262706d9cf70fc52ab2dbd9b67ad6c7039bc6b9cf4f91878da34ae9c6d0bcb48deb6aae_1920.jpg",
     address: "Some address 4, Street 12",
     description: "The Second",
   },
@@ -21,7 +21,7 @@ const DUMMY_MEETUPS = [
     id: "m3",
     title: "The Third MeetUp",
     image:
-      "https://pixabay.com/get/g0f4f79cb3d2b263438ae58a2ab93f812199c3efb79a4599b462e1e6dbbba0e60f2c8a43e2fd7b1989cc58f6ad9e48371637b743f0aa07307f4385bf30962f7dc343d36036bc0bff3e7168ac21ec4b6ad_1920.jpg",
+      "https://pixabay.com/get/g0e5aab3873b43e613a4c046a20364a641947e13c3e5828a65533aa7f1e5e9006f4171fb0f655fd83e0abe3581bc516124fcde485d816790b22a8a286ee2dcacaff721b7c53ead13491cb3f40f8eeca49_1920.jpg",
     address: "Some address 6, Street 92",
     description: "The Third",
   },
