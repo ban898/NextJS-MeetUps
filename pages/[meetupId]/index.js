@@ -1,16 +1,7 @@
 import { MongoClient, ObjectId } from "mongodb";
+import Head from "next/head";
+import { Fragment } from "react";
 import MeetupDetail from "../../components/meetups/MeetupDetail";
-
-function MeetupDetails(props) {
-  return (
-    <MeetupDetail
-      image={props.meetupData.image}
-      title={props.meetupData.title}
-      address={props.meetupData.address}
-      description={props.meetupData.description}
-    />
-  );
-}
 
 export async function getStaticPaths() {
   const client = await MongoClient.connect(
@@ -48,7 +39,6 @@ export async function getStaticProps(context) {
 
   client.close();
 
-  //Fetch data for single meetup
   return {
     props: {
       meetupData: {
@@ -60,6 +50,23 @@ export async function getStaticProps(context) {
       },
     },
   };
+}
+
+function MeetupDetails(props) {
+  return (
+    <Fragment>
+      <Head>
+        <title>{props.meetupData.title}</title>
+        <meta name="description" content={props.meetupData.description} />
+      </Head>
+      <MeetupDetail
+        image={props.meetupData.image}
+        title={props.meetupData.title}
+        address={props.meetupData.address}
+        description={props.meetupData.description}
+      />
+    </Fragment>
+  );
 }
 
 export default MeetupDetails;
